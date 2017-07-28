@@ -1,41 +1,15 @@
 import { Component } from '@angular/core';
+import { Hero } from './hero';
+import { HeroService } from './hero.service';
+import { OnInit } from '@angular/core';
 
-export class Hero {
-  constructor (
-    public id: number,
-    public name: string,
-    ) {
-    }
-}
-
-const HEROES: Hero[] = [
-  new Hero(11, 'Mr. Nice'),
-  new Hero(12, 'Narco'),
-  new Hero(13, 'Bombasto'),
-  new Hero(14, 'Celeritas'),
-  new Hero(15, 'Magneta'),
-  new Hero(16, 'RubberMan'),
-  new Hero(17, 'Dynama'),
-  new Hero(18, 'Dr IQ'),
-  new Hero(19, 'Magma'),
-  new Hero(20, 'Tornado'),
-
-];
 
 @Component({
   selector: 'app-root',
   template: `
     <h1>{{title}}</h1>
-    <div *ngIf="selectedHero">
-      <h2>{{selectedHero.name}} details!</h2>
-      <div><label>id: </label>{{selectedHero.id}}</div>
-      <div><label>name: </label>{{selectedHero.name}}</div>
 
-      <div>
-        <label>name: </label>
-        <input [(ngModel)]="selectedHero.name" placeholder="name">
-      </div>
-    </div>
+    <hero-detail [hero]="selectedHero"></hero-detail>
 
     <h2>My Heroes</h2>
     <ul class="heroes">
@@ -48,8 +22,8 @@ const HEROES: Hero[] = [
 
     <input #box (keyup)="0" placeholder="template reference variable #box">
     <p>{{box.value}}</p>
-
     `,
+
   styleUrls: ['./app.component.css'],
   styles: [`
     .selected {
@@ -99,16 +73,28 @@ const HEROES: Hero[] = [
       margin-right: .8em;
       border-radius: 4px 0 0 4px;
     }
-  `]
+  `],
+  providers: [HeroService]
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'Tour of Heroes';
   selectedHero: Hero;
-  heroes= HEROES;
+  heroes: Hero[];
+
+  constructor(private heroService: HeroService) {
+  }
+
+  getHeroes(): void {
+    this.heroes= this.heroService.getHeroes();
+  }
+
+   ngOnInit(): void {
+      this.getHeroes();
+    }
 
   onKill(hero: Hero): void {
     //hero.name="Killed";
-    this.selectedHero= hero
+    this.selectedHero= hero;
   }
 
   values= '';
