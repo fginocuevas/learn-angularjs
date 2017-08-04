@@ -14,6 +14,7 @@ import { CrisisListComponent } from './routing/crisis-list.component';
 import { PageNotFoundComponent } from './routing/page-not-found.component';
 import { AppRoutingModule } from './routing/app-routing.module';
 
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { AppRoutingModule } from './routing/app-routing.module';
   imports: [
     BrowserModule,
     FormsModule, // <-- import the FormsModule before binding with [(ngModel)]
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]

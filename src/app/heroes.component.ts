@@ -5,6 +5,7 @@ import { OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 import 'rxjs/add/operator/switchMap';
+import { Observable } from 'rxjs/Observable';
 
 @Component({
   selector: 'my-heroes',
@@ -14,20 +15,26 @@ import 'rxjs/add/operator/switchMap';
 
 export class HeroesComponent implements OnInit {
   selectedHero: Hero;
-  heroes: Hero[];
+  heroes: Observable<Hero[]>;
   private selectedId: number;
 
-  constructor(private router: Router, private heroService: HeroService) {
-  }
+// (A) Before implementing requesting for Observable<Hero[]>
+// heroes: Hero[];
 
-  getHeroes(): void {
-    // Before the use of Promises
-    //this.heroes= this.heroService.getHeroes();
-    this.heroService.getHeroes().then(heroes => this.heroes= heroes)
+  constructor(
+     private router: Router,
+     private heroService: HeroService,
+     private route: ActivatedRoute) {
   }
 
  ngOnInit(): void {
-    this.getHeroes();
+    // (A) Before implementing requesting for Observable<Hero>
+    //this.getHeroes();
+
+  this.heroes= this.route.paramMap.switchMap((params: ParamMap) => {
+    this.selectedId= +params.get('id');
+    return this.heroService.getHeroes();
+  })
 
   }
 
@@ -39,9 +46,13 @@ export class HeroesComponent implements OnInit {
     });
   } */
 
-  onKill(hero: Hero): void {
+  onSelect(hero: Hero): void {
     //hero.name="Killed";
     this.selectedHero= hero;
+  }
+
+  isSelected(hero: Hero){
+    return hero.id === this.selectedId
   }
 
   gotoDetail (){
@@ -53,5 +64,14 @@ export class HeroesComponent implements OnInit {
     console.log(event);
     this.values += event.target + ' | ';
   }
+
+  // (A) Before implementing requesting for Observable<Hero[]>
+  /*
+    getHeroes(): void {
+      // Before the use of Promises
+      //this.heroes= this.heroService.getHeroes();
+      this.heroService.getHeroes().then(heroes => this.heroes= heroes)
+    }
+  */
 
 }

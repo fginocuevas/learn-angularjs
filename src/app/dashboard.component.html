@@ -1,9 +1,10 @@
 <h3>Top Heroes</h3>
 <div class="grid grid-pad">
 
-    <a *ngFor="let hero of heroes"  [routerLink]="['/detail', hero.id]"  class="col-1-4">
+    <a *ngFor="let hero of heroes" [@heroState]="hero.state"
+       (mouseenter)="hero.toggleState()" (mouseleave)="hero.toggleState()" [routerLink]="['/detail', hero.id]"  class="col-1-4">
     <div class="module hero">
-      <img src="../assets/{{hero.image}}" alt="{{hero.name}}'s Profile Image">
+      <img src="../assets/{{hero.image}}" alt="{{hero.name}}'s Profile Image" >
       <h4>{{hero.name}}</h4>
     </div>
     </a>
