@@ -1,0 +1,1193 @@
+{
+  "originalRequest": {
+    "consumerInfo": {
+      "channelId": "DOTCOM",
+      "applicationId": "SHO",
+      "pageId": "I-1",
+      "transactionId": "",
+      "cannedResponse": "Y"
+    },
+    "customerDetails": [
+      {
+        "fqtvNumber": "4251475"
+      }
+    ],
+    "segmentDetails": [
+      {
+        "sourceDestInfo": {
+          "deptAirportCode": "ATL",
+          "arrAirportCode": "JFK",
+          "deptDate": "2017-02-22",
+          "deptTime": "12:05:00"
+        },
+        "carrierDetails": [
+          {
+            "marketAirlineCode": "DL",
+            "marketingFlightNo": "420",
+            "operatingAirlineCode": "DL",
+            "operatingFlightNo": "420",
+            "classOfService": "H"
+          }
+        ]
+      },
+      {
+        "sourceDestInfo": {
+          "deptAirportCode": "JFK",
+          "arrAirportCode": "LHR",
+          "deptDate": "2017-02-22",
+          "deptTime": "06:30:00"
+        },
+        "carrierDetails": [
+          {
+            "marketAirlineCode": "DL",
+            "marketingFlightNo": "4377",
+            "operatingAirlineCode": "VS",
+            "operatingFlightNo": "4377",
+            "classOfService": "H"
+          }
+        ]
+      }
+    ]
+  },
+  "errors": [
+    
+  ],
+  "productsBySegments": [
+    {
+      "flightLegs": [
+        {
+          "flightSourceDestInfo": {
+            "deptAirportCode": "ATL",
+            "arrAirportCode": "JFK",
+            "deptDate": "2017-02-22",
+            "deptTime": "12:05:00"
+          },
+          "carrierInfo": {
+            "marketAirlineCode": "DL",
+            "marketingFlightNo": "468",
+            "operatingAirlineCode": "DL",
+            "operatingFlightNo": "468",
+            "classOfService": "H"
+          },
+          "aircraftInfo": {
+            "fleet": "456",
+            "subFleet": "Sub-Fleet",
+            "description": "Desc"
+          },
+          "brandAndProducts": [
+            {
+              "productTypeInfo": {
+                "productId": "wifi",
+                "productType": "AMENITY",
+                "productSubtype": "WIFI",
+                "productCategory": "NON-PHYSICAL-SERVICES"
+              },
+              "productContentInfo": {
+                "primaryName": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": "False"
+                },
+                "shortPrimaryName": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": "False"
+                },
+                "secondaryName": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": "False"
+                },
+                "shortSecondaryName": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": "False"
+                },
+                "header": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": "False"
+                },
+                "shortHeader": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": "False"
+                },
+                "description": {
+                  "text": "In-flight Internet access available for purchase",
+                  "hasMarkup": "False"
+                },
+                "shortDescription": {
+                  "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+                  "hasMarkup": "False"
+                },
+                "iataDescription": {
+                  "text": "In flight description",
+                  "hasMarkup": "False"
+                },
+                "tagLine": {
+                  "text": "Sample Tag Line",
+                  "hasMarkup": "False"
+                },
+                "disclaimer": {
+                  "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                  "hasMarkup": "False"
+                },
+                "learnMorelink": {
+                  "sourcePath": "/content/www/en_US/wifi.html",
+                  "size": "160"
+                },
+                "learnMorelinktext": {
+                  "sourcePath": "Learn More",
+                  "size": "160"
+                }
+              },
+              "amenities": [
+                {
+                  "productTypeInfo": {
+                    "productId": "wifi",
+                    "productType": "AMENITY",
+                    "productSubtype": "WIFI",
+                    "productCategory": "NON-PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "In-flight Internet access available for purchase",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/wifi.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktext": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+                  "images": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ],
+                  "mobileImages": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "meals": [
+                {
+                  "productTypeInfo": {
+                    "productId": "lunch",
+                    "productType": "MEAL",
+                    "productSubtype": "LUNCH",
+                    "productCategory": "PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and meals may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/lunch.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktext": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+                  "images": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ],
+                  "mobileImages": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "additionalProducts": [
+                
+              ]
+            }
+          ],
+          "allAmenities": [
+            {
+              "productTypeInfo": {
+                "productId": "SP",
+                "productType": "AMENITY",
+                "productSubtype": "SKY",
+                "productCategory": "NON-PHYSICAL-SERVICES"
+              },
+              "productContentInfo": {
+                "primaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "In-flight Internet access available for purchase",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/wifi.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+              },
+              "iconDetails": {
+                    "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+              "images": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ],
+              "mobileImages": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "allMeals": [
+            {
+              "productTypeInfo": {
+                    "productId": "lunch",
+                    "productType": "MEAL",
+                    "productSubtype": "LUNCH",
+                    "productCategory": "PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and meals may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/lunch.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+              "iconDetails": {
+                    "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+              "images": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ],
+              "mobileImages": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "flightLegs": [
+        {
+          "flightSourceDestInfo": {
+            "deptAirportCode": "JFK",
+            "arrAirportCode": "LHR",
+            "deptDate": "06:30:00",
+            "deptTime": null
+          },
+          "carrierInfo": {
+            "marketAirlineCode": "DL",
+            "marketingFlightNo": "4377",
+            "operatingAirlineCode": "VS",
+            "operatingFlightNo": "4377",
+            "classOfService": "H"
+          },
+          "aircraftInfo": {
+            "fleet": "456",
+            "subFleet": "Sub-Fleet",
+            "description": "Desc"
+          },
+          "brandAndProducts": [
+            {
+              "productTypeInfo": {
+                    "productId": "wifi",
+                    "productType": "AMENITY",
+                    "productSubtype": "WIFI",
+                    "productCategory": "NON-PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "In-flight Internet access available for purchase",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/wifi.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+              "amenities": [
+                {
+                  "productTypeInfo": {
+                    "productId": "wifi",
+                    "productType": "AMENITY",
+                    "productSubtype": "WIFI",
+                    "productCategory": "NON-PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "In-flight Internet access available for purchase",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/wifi.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+                  "images": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ],
+                  "mobileImages": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "meals": [
+                {
+                  "productTypeInfo": {
+                    "productId": "lunch",
+                    "productType": "MEAL",
+                    "productSubtype": "LUNCH",
+                    "productCategory": "PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and meals may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/lunch.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+                  "images": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ],
+                  "mobileImages": [
+                    {
+                      "imageType": "png",
+                      "altText": "copy for accessibility",
+                      "height": "200px",
+                      "width": "200px",
+                      "defaultLocation": {
+                        "sourcePath": "/path/to/image-160.png",
+                        "size": "160"
+                      },
+                      "additionalSources": [
+                        {
+                          "sourcePath": "/path/to/image-320.png",
+                          "size": "320w"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "additionalProducts": [
+                
+              ]
+            }
+          ],
+          "allAmenities": [
+            {
+              "productTypeInfo": {
+                    "productId": "wifi",
+                    "productType": "AMENITY",
+                    "productSubtype": "WIFI",
+                    "productCategory": "NON-PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "In-flight Internet access available for purchase",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/wifi.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+              "iconDetails": {
+                "productIconId": {
+                      "text": "icon-2",
+                      "hasMarkup": "False"
+                    },
+                    "lightProductIconUrl": {
+                      "text": "/content/to/light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "darkProductIconUrl": {
+                      "text": "/content/to/dark_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileLightProductIconUrl": {
+                      "text": "/content/to/ mobile_light_product_icon_url",
+                      "hasMarkup": "False"
+                    },
+                    "mobileDarkProductIconUrl": {
+                      "text": "/content/to/ mobile_dark_product_icon_url",
+                      "hasMarkup": "False"
+                    }
+                  },
+              "images": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ],
+              "mobileImages": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "allMeals": [
+            {
+              "productTypeInfo": {
+                    "productId": "lunch",
+                    "productType": "MEAL",
+                    "productSubtype": "LUNCH",
+                    "productCategory": "PHYSICAL-SERVICES"
+                  },
+                  "productContentInfo": {
+                    "primaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortPrimaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "secondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortSecondaryName": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "header": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "shortHeader": {
+                      "text": "LUNCH",
+                      "hasMarkup": "False"
+                    },
+                    "description": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "shortDescription": {
+                      "text": "Savor a fresh, light lunch, served on Alessi service ware. Also enjoy a complimentary Starbucks&amp;reg; Coffee Service, sparkling wine or other alcoholic selections",
+                      "hasMarkup": "False"
+                    },
+                    "iataDescription": {
+                      "text": "In flight description",
+                      "hasMarkup": "False"
+                    },
+                    "tagLine": {
+                      "text": "Sample Tag Line",
+                      "hasMarkup": "False"
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and meals may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": "False"
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/lunch.html",
+                      "size": "160"
+                    },
+                    "learnMorelinktextText": {
+                      "sourcePath": "Learn More",
+                      "size": "160"
+                    }
+                  },
+              "images": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ],
+              "mobileImages": [
+                {
+                  "imageType": "png",
+                  "altText": "copy for accessibility",
+                  "height": "200px",
+                  "width": "200px",
+                  "defaultLocation": {
+                    "sourcePath": "/path/to/image-160.png",
+                    "size": "160"
+                  },
+                  "additionalSources": [
+                    {
+                      "sourcePath": "/path/to/image-320.png",
+                      "size": "320w"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

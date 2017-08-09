@@ -1,0 +1,1100 @@
+{
+  "originalRequest": {
+    "consumerInfo": {
+      "channelId": "eComm",
+      "applicationId": "Reissue",
+      "pageId": "MYT",
+      "transactionId": "f0ed63fb-4429-4f70-a903-b5ba975",
+      "deviceType": null,
+      "cannedResponse": null
+    },
+    "customerDetails": null,
+    "segmentDetails": [
+      {
+        "sourceDestInfo": {
+          "deptAirportCode": "ORD",
+          "arrAirportCode": "ATL",
+          "deptDateTime": "2017-04-28T20:00:00"
+        },
+        "carrierDetails": {
+          "marketAirlineCode": null,
+          "marketingFlightNo": null,
+          "marketingClassOfService": null,
+          "operatingAirlineCode": "DL",
+          "operatingFlightNo": "972",
+          "operatingClassOfService": "X"
+        },
+        "flightLegs": []
+      }
+    ]
+  },
+  "errors": [],
+  "productsBySegments": [
+    {
+      "sourceDestInfo": {
+        "deptAirportCode": "ORD",
+        "arrAirportCode": "ATL",
+        "deptDateTime": "2017-04-28T20:00:00"
+      },
+      "carrierDetails": {
+        "marketAirlineCode": null,
+        "marketingFlightNo": null,
+        "marketingClassOfService": null,
+        "operatingAirlineCode": "DL",
+        "operatingFlightNo": "972",
+        "operatingClassOfService": "X"
+      },
+      "flightLegs": [
+        {
+          "flightSourceDestInfo": {
+            "deptAirportCode": "ORD",
+            "arrAirportCode": "ATL",
+            "deptDateTime": "2017-04-28T12:10:00"
+          },
+          "carrierInfo": {
+            "marketAirlineCode": null,
+            "marketingFlightNo": null,
+            "marketingClassOfService": null,
+            "operatingAirlineCode": "DL",
+            "operatingFlightNo": "972",
+            "operatingClassOfService": "X"
+          },
+          "aircraftInfo": {
+            "fleet": null,
+            "subFleet": "M88",
+            "description": null
+          },
+          "brandAndProducts": [
+            {
+              "productTypeInfo": {
+                "productId": "MAIN",
+                "productType": "BRAND",
+                "productSubtype": "DLBRPDT",
+                "productCategory": "BRAND",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": {
+                  "text": "Main Cabin",
+                  "hasMarkup": false
+                },
+                "shortPrimaryName": {
+                  "text": "Main Cabin",
+                  "hasMarkup": false
+                },
+                "secondaryName": {
+                  "text": "Main Cabin",
+                  "hasMarkup": false
+                },
+                "shortSecondaryName": {
+                  "text": "Main Cabin",
+                  "hasMarkup": false
+                },
+                "header": {
+                  "text": "ON YOUR FLIGHT",
+                  "hasMarkup": false
+                },
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "On your Delta flight to &lt;&lt;DESTINATION&gt;&gt;, enjoy amenities and options for a better journey. Stay connected with available Wi-Fi and entertained with complimentary Delta Studio&#174; on a seatback screen or your device. Customize your flight by choosing an available seat ahead of time.",
+                  "hasMarkup": false
+                },
+                "shortDescription": {
+                  "text": "Find high-quality essentials that keep you comfortable, connected and entertained for your journey.",
+                  "hasMarkup": false
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "amenities": [
+                {
+                  "productTypeInfo": {
+                    "productId": "AM0CL2",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYSVS",
+                    "productCategory": "AMENITY",
+                    "serviceCode": "13"
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": false
+                    },
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "Wi-Fi",
+                      "hasMarkup": false
+                    },
+                    "shortDescription": {
+                      "text": "Wi-Fi -  Standard Wi-Fi (AM0CL2)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": {
+                      "text": "Internet Access",
+                      "hasMarkup": false
+                    },
+                    "tagLine": {
+                      "text": "In-flight Internet access available for purchase.",
+                      "hasMarkup": false
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                      "hasMarkup": false
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/traveling-with-us/onboard-experience/delta-studio/in-flight-wi-fi.html",
+                      "size": null
+                    },
+                    "learnMorelinktext": {
+                      "text": "Learn More",
+                      "hasMarkup": null
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "wif",
+                      "hasMarkup": null
+                    },
+                    "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/light_sprites.png",
+                    "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/dark_sprites.png",
+                    "mobileLightProductIcon": {
+                      "imageType": "3x",
+                      "altText": null,
+                      "url": "//qat3-content.delta.com/content/path-to-mob-img.png"
+                    },
+                    "mobileDarkProductIcon": {
+                      "imageType": "3x",
+                      "altText": null,
+                      "url": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/mobile/amenity_24_hour_wifi@3x.png"
+                    }
+                  },
+                  "imageDetails": {
+                    "imageType": null,
+                    "altText": null,
+                    "height": null,
+                    "width": null,
+                    "defaultLocation": null,
+                    "additionalSources": []
+                  },
+                  "mobileImageDetails": {
+                    "imageType": "3x",
+                    "altText": "mobile-alt text",
+                    "url": "//qat3-content.delta.com/content/path-to-3x.png"
+                  }
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AM0B1X",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYSVS",
+                    "productCategory": "AMENITY",
+                    "serviceCode": "3"
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": {
+                      "text": "Delta Studio",
+                      "hasMarkup": false
+                    },
+                    "shortHeader": {
+                      "text": "Delta Studio",
+                      "hasMarkup": false
+                    },
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "Delta Studio",
+                      "hasMarkup": false
+                    },
+                    "shortDescription": {
+                      "text": "Delta Studio (AM0B1X)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": {
+                      "text": "Entertainment On Demand",
+                      "hasMarkup": false
+                    },
+                    "tagLine": {
+                      "text": "Enjoy free in-flight entertainment with over 1,000 hours of content from your own device or your seatback screen. Includes movies from TV, HBO, SHOWTIME, music, games and more.",
+                      "hasMarkup": false
+                    },
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change.",
+                      "hasMarkup": false
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/traveling-with-us/onboard-experience/delta-studio.html",
+                      "size": null
+                    },
+                    "learnMorelinktext": {
+                      "text": "Learn More",
+                      "hasMarkup": null
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "stu",
+                      "hasMarkup": null
+                    },
+                    "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/light_sprites.png",
+                    "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/dark_sprites.png",
+                    "mobileLightProductIcon": null,
+                    "mobileDarkProductIcon": {
+                      "imageType": "3x",
+                      "altText": null,
+                      "url": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/mobile/amenity_24_hour_wifi@2x.png"
+                    }
+                  },
+                  "imageDetails": {
+                    "imageType": null,
+                    "altText": null,
+                    "height": null,
+                    "width": null,
+                    "defaultLocation": null,
+                    "additionalSources": []
+                  },
+                  "mobileImageDetails": {
+                    "imageType": null,
+                    "altText": null,
+                    "url": null
+                  }
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AMG031",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYACFT",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Seat Recline - 4\" (AMG031)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Seat Recline - 4\" (AMG031)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AMG071",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYACFT",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Bed Length - none (AMG071)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Bed Length - none (AMG071)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AMG050",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYACFT",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Seat Width - 17.2\" (AMG050)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Seat Width - 17.2\" (AMG050)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AM0LC1",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYSVS",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Amenity Kit - None (AM0LC1)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Amenity Kit - None (AM0LC1)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AM0AEZ",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYACFT",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Premium Headset (AM0AEZ)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Premium Headset (AM0AEZ)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AM0AD3",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYSVS",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Pillow/blanket - Standard Blanket/Pillow (AM0AD3)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Pillow/blanket - Standard Blanket/Pillow (AM0AD3)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                },
+                {
+                  "productTypeInfo": {
+                    "productId": "AMG241",
+                    "productType": "AMENITY",
+                    "productSubtype": "PHYSVS",
+                    "productCategory": "AMENITY",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": null,
+                    "shortHeader": null,
+                    "title": null,
+                    "shortTitle": null,
+                    "description": {
+                      "text": "[Service ware -  Standard (AMG241)]",
+                      "hasMarkup": null
+                    },
+                    "shortDescription": {
+                      "text": "Service ware -  Standard (AMG241)",
+                      "hasMarkup": null
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": null,
+                    "learnMorelink": null,
+                    "learnMorelinktext": null
+                  },
+                  "iconDetails": null,
+                  "imageDetails": null,
+                  "mobileImageDetails": null
+                }
+              ],
+              "meals": [
+                {
+                  "productTypeInfo": {
+                    "productId": "AMG18A",
+                    "productType": "MEAL",
+                    "productSubtype": "PHYSVS",
+                    "productCategory": "MEAL",
+                    "serviceCode": null
+                  },
+                  "productContentInfo": {
+                    "primaryName": null,
+                    "shortPrimaryName": null,
+                    "secondaryName": null,
+                    "shortSecondaryName": null,
+                    "header": {
+                      "text": "Refreshing Beverages",
+                      "hasMarkup": false
+                    },
+                    "shortHeader": {
+                      "text": "Refreshing Beverages",
+                      "hasMarkup": false
+                    },
+                    "title": {
+                      "text": "Drinks",
+                      "hasMarkup": false
+                    },
+                    "shortTitle": {
+                      "text": "Drinks",
+                      "hasMarkup": false
+                    },
+                    "description": {
+                      "text": "Choose your favorite non-alcoholic beverage, including juices, teas, Starbucks&#174; coffee and an array of Coca-Cola&#174; products. Beer, wine and spirits available for purchase, complimentary on long-haul international flights.",
+                      "hasMarkup": false
+                    },
+                    "shortDescription": {
+                      "text": "Choose your favorite non-alcoholic beverage, including juices, teas, Starbucks&#174; coffee and an array of Coca-Cola&#174; products. Beer, wine and spirits available for purchase, complimentary on long-haul international flights.",
+                      "hasMarkup": false
+                    },
+                    "iataDescription": null,
+                    "tagLine": null,
+                    "disclaimer": {
+                      "text": "In-Flight services and amenities may vary and are subject to change.",
+                      "hasMarkup": false
+                    },
+                    "learnMorelink": {
+                      "sourcePath": "/content/www/en_US/traveling-with-us/onboard-experience/main-cabin-economy-class.html",
+                      "size": null
+                    },
+                    "learnMorelinktext": {
+                      "text": "More on Meal Services",
+                      "hasMarkup": null
+                    }
+                  },
+                  "iconDetails": {
+                    "productIconId": {
+                      "text": "refreshment",
+                      "hasMarkup": null
+                    },
+                    "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/meals/food-light.gif",
+                    "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/meals/food-dark.gif",
+                    "mobileLightProductIcon": null,
+                    "mobileDarkProductIcon": null
+                  },
+                  "imageDetails": {
+                    "imageType": null,
+                    "altText": "Refreshments",
+                    "height": "609",
+                    "width": "1328",
+                    "defaultLocation": {
+                      "sourcePath": "//qat3-content.delta.com/content/dam/delta-content-api/images/meals/maincabin/Meal_MainCabinDomestic_BeveragesCoffee_AMG18A_Desktop.jpg",
+                      "size": null
+                    },
+                    "additionalSources": []
+                  },
+                  "mobileImageDetails": {
+                    "imageType": "3x",
+                    "altText": "mobile-alt text",
+                    "url": "//qat3-content.delta.com/content/dam/delta-content-api/images/mobile/meals/3x/Meal_MainCabinDomestic_BeveragesCoffee_AMG18A_3x.jpg"
+                  }
+                }
+              ],
+              "additionalProducts": []
+            }
+          ],
+          "allAmenities": [
+            {
+              "productTypeInfo": {
+                "productId": "AMG050",
+                "productType": "AMENITY",
+                "productSubtype": "PHYACFT",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Seat Width - 17.2\" (AMG050)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Seat Width - 17.2\" (AMG050)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AM0AEZ",
+                "productType": "AMENITY",
+                "productSubtype": "PHYACFT",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Premium Headset (AM0AEZ)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Premium Headset (AM0AEZ)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AMG031",
+                "productType": "AMENITY",
+                "productSubtype": "PHYACFT",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Seat Recline - 4\" (AMG031)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Seat Recline - 4\" (AMG031)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AMG241",
+                "productType": "AMENITY",
+                "productSubtype": "PHYSVS",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Service ware -  Standard (AMG241)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Service ware -  Standard (AMG241)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AM0B1X",
+                "productType": "AMENITY",
+                "productSubtype": "PHYSVS",
+                "productCategory": "AMENITY",
+                "serviceCode": "3"
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": {
+                  "text": "Delta Studio",
+                  "hasMarkup": false
+                },
+                "shortHeader": {
+                  "text": "Delta Studio",
+                  "hasMarkup": false
+                },
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "Delta Studio",
+                  "hasMarkup": false
+                },
+                "shortDescription": {
+                  "text": "Delta Studio (AM0B1X)",
+                  "hasMarkup": null
+                },
+                "iataDescription": {
+                  "text": "Entertainment On Demand",
+                  "hasMarkup": false
+                },
+                "tagLine": {
+                  "text": "Enjoy free in-flight entertainment with over 1,000 hours of content from your own device or your seatback screen. Includes movies from TV, HBO, SHOWTIME, music, games and more.",
+                  "hasMarkup": false
+                },
+                "disclaimer": {
+                  "text": "In-Flight services and amenities may vary and are subject to change.",
+                  "hasMarkup": false
+                },
+                "learnMorelink": {
+                  "sourcePath": "/content/www/en_US/traveling-with-us/onboard-experience/delta-studio.html",
+                  "size": null
+                },
+                "learnMorelinktext": {
+                  "text": "Learn More",
+                  "hasMarkup": null
+                }
+              },
+              "iconDetails": {
+                "productIconId": {
+                  "text": "stu",
+                  "hasMarkup": null
+                },
+                "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/light_sprites.png",
+                "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/dark_sprites.png",
+                "mobileLightProductIcon": null,
+                "mobileDarkProductIcon": {
+                  "imageType": "3x",
+                  "altText": null,
+                  "url": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/mobile/amenity_24_hour_wifi@2x.png"
+                }
+              },
+              "imageDetails": {
+                "imageType": null,
+                "altText": null,
+                "height": null,
+                "width": null,
+                "defaultLocation": null,
+                "additionalSources": []
+              },
+              "mobileImageDetails": {
+                "imageType": null,
+                "altText": null,
+                "url": null
+              }
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AM0CL2",
+                "productType": "AMENITY",
+                "productSubtype": "PHYSVS",
+                "productCategory": "AMENITY",
+                "serviceCode": "13"
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": false
+                },
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "Wi-Fi",
+                  "hasMarkup": false
+                },
+                "shortDescription": {
+                  "text": "Wi-Fi -  Standard Wi-Fi (AM0CL2)",
+                  "hasMarkup": null
+                },
+                "iataDescription": {
+                  "text": "Internet Access",
+                  "hasMarkup": false
+                },
+                "tagLine": {
+                  "text": "In-flight Internet access available for purchase.",
+                  "hasMarkup": false
+                },
+                "disclaimer": {
+                  "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+                  "hasMarkup": false
+                },
+                "learnMorelink": {
+                  "sourcePath": "/content/www/en_US/traveling-with-us/onboard-experience/delta-studio/in-flight-wi-fi.html",
+                  "size": null
+                },
+                "learnMorelinktext": {
+                  "text": "Learn More",
+                  "hasMarkup": null
+                }
+              },
+              "iconDetails": {
+                "productIconId": {
+                  "text": "wif",
+                  "hasMarkup": null
+                },
+                "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/light_sprites.png",
+                "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/dark_sprites.png",
+                "mobileLightProductIcon": {
+                  "imageType": "3x",
+                  "altText": null,
+                  "url": "//qat3-content.delta.com/content/path-to-mob-img.png"
+                },
+                "mobileDarkProductIcon": {
+                  "imageType": "3x",
+                  "altText": null,
+                  "url": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/mobile/amenity_24_hour_wifi@3x.png"
+                }
+              },
+              "imageDetails": {
+                "imageType": null,
+                "altText": null,
+                "height": null,
+                "width": null,
+                "defaultLocation": null,
+                "additionalSources": []
+              },
+              "mobileImageDetails": {
+                "imageType": "3x",
+                "altText": "mobile-alt text",
+                "url": "//qat3-content.delta.com/content/path-to-3x.png"
+              }
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AM0LC1",
+                "productType": "AMENITY",
+                "productSubtype": "PHYSVS",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Amenity Kit - None (AM0LC1)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Amenity Kit - None (AM0LC1)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AM0AD3",
+                "productType": "AMENITY",
+                "productSubtype": "PHYSVS",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Pillow/blanket - Standard Blanket/Pillow (AM0AD3)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Pillow/blanket - Standard Blanket/Pillow (AM0AD3)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            },
+            {
+              "productTypeInfo": {
+                "productId": "AMG071",
+                "productType": "AMENITY",
+                "productSubtype": "PHYACFT",
+                "productCategory": "AMENITY",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": null,
+                "shortHeader": null,
+                "title": null,
+                "shortTitle": null,
+                "description": {
+                  "text": "[Bed Length - none (AMG071)]",
+                  "hasMarkup": null
+                },
+                "shortDescription": {
+                  "text": "Bed Length - none (AMG071)",
+                  "hasMarkup": null
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": null,
+                "learnMorelink": null,
+                "learnMorelinktext": null
+              },
+              "iconDetails": null,
+              "imageDetails": null,
+              "mobileImageDetails": null
+            }
+          ],
+          "allMeals": [
+            {
+              "productTypeInfo": {
+                "productId": "AMG18A",
+                "productType": "MEAL",
+                "productSubtype": "PHYSVS",
+                "productCategory": "MEAL",
+                "serviceCode": null
+              },
+              "productContentInfo": {
+                "primaryName": null,
+                "shortPrimaryName": null,
+                "secondaryName": null,
+                "shortSecondaryName": null,
+                "header": {
+                  "text": "Refreshing Beverages",
+                  "hasMarkup": false
+                },
+                "shortHeader": {
+                  "text": "Refreshing Beverages",
+                  "hasMarkup": false
+                },
+                "title": {
+                  "text": "Drinks",
+                  "hasMarkup": false
+                },
+                "shortTitle": {
+                  "text": "Drinks",
+                  "hasMarkup": false
+                },
+                "description": {
+                  "text": "Choose your favorite non-alcoholic beverage, including juices, teas, Starbucks&#174; coffee and an array of Coca-Cola&#174; products. Beer, wine and spirits available for purchase, complimentary on long-haul international flights.",
+                  "hasMarkup": false
+                },
+                "shortDescription": {
+                  "text": "Choose your favorite non-alcoholic beverage, including juices, teas, Starbucks&#174; coffee and an array of Coca-Cola&#174; products. Beer, wine and spirits available for purchase, complimentary on long-haul international flights.",
+                  "hasMarkup": false
+                },
+                "iataDescription": null,
+                "tagLine": null,
+                "disclaimer": {
+                  "text": "In-Flight services and amenities may vary and are subject to change.",
+                  "hasMarkup": false
+                },
+                "learnMorelink": {
+                  "sourcePath": "/content/www/en_US/traveling-with-us/onboard-experience/main-cabin-economy-class.html",
+                  "size": null
+                },
+                "learnMorelinktext": {
+                  "text": "More on Meal Services",
+                  "hasMarkup": null
+                }
+              },
+              "iconDetails": {
+                "productIconId": {
+                  "text": "refreshment",
+                  "hasMarkup": null
+                },
+                "lightProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/meals/food-light.gif",
+                "darkProductIconUrl": "//qat3-content.delta.com/content/dam/delta-content-api/sprites/meals/food-dark.gif",
+                "mobileLightProductIcon": null,
+                "mobileDarkProductIcon": null
+              },
+              "imageDetails": {
+                "imageType": null,
+                "altText": "Refreshments",
+                "height": "609",
+                "width": "1328",
+                "defaultLocation": {
+                  "sourcePath": "//qat3-content.delta.com/content/dam/delta-content-api/images/meals/maincabin/Meal_MainCabinDomestic_BeveragesCoffee_AMG18A_Desktop.jpg",
+                  "size": null
+                },
+                "additionalSources": []
+              },
+              "mobileImageDetails": {
+                "imageType": "3x",
+                "altText": "mobile-alt text",
+                "url": "//qat3-content.delta.com/content/dam/delta-content-api/images/mobile/meals/3x/Meal_MainCabinDomestic_BeveragesCoffee_AMG18A_3x.jpg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

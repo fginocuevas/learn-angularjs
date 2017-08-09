@@ -31,13 +31,13 @@ nav a.active {
   background-color: #CFD8DC !important;
   color: white;
 }
-.heroes {
+.heroes, .characters {
   margin: 0 0 2em 0;
   list-style-type: none;
   padding: 0;
   width: 15em;
 }
-.heroes li {
+.heroes, .characters li {
   cursor: pointer;
   position: relative;
   left: 0;

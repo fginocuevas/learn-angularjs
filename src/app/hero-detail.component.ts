@@ -25,8 +25,10 @@ export class HeroDetailComponent implements OnInit{
   ) {}
 
   ngOnInit(): void{
+
     this.route.paramMap.switchMap((param: ParamMap) => this.heroService.getHero(+param.get('id')))
     .subscribe(hero => this.hero = hero);
+
     //this.message= "Route: " + this.route.toString() + " ParamMap: ";
     //this.notSure= this.route.paramMap.switchMap((param: ParamMap) => this.heroService.getHero(+param.get('id')));
     //console.log("Not Sure: " + JSON.stringify(this.notSure, ['hero']));

@@ -1,0 +1,66 @@
+{
+  "amenities": [
+    {
+      "productTypeInfo": {
+        "productId": "wifi",
+        "productType": "AMENITY",
+        "productSubtype": "WIFI",
+        "productCategory": "NON-PHYSICAL-SERVICES"
+      },
+      "productContentInfo": {
+        "primaryName": {
+          "text": "Wi-Fi",
+          "hasMarkup": "False"
+        },
+        "shortPrimaryName": {
+          "text": "Wi-Fi",
+          "hasMarkup": "False"
+        },
+        "secondaryName": {
+          "text": "Wi-Fi",
+          "hasMarkup": "False"
+        },
+        "shortSecondaryName": {
+          "text": "Wi-Fi",
+          "hasMarkup": "False"
+        },
+        "header": {
+          "text": "Wi-Fi",
+          "hasMarkup": "False"
+        },
+        "shortHeader": {
+          "text": "Wi-Fi",
+          "hasMarkup": "False"
+        },
+        "description": {
+          "text": "In-flight Internet access available for purchase",
+          "hasMarkup": "False"
+        },
+        "shortDescription": {
+          "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
+          "hasMarkup": "False"
+        },
+        "iataDescription": {
+          "text": "In flight description",
+          "hasMarkup": "False"
+        },
+        "tagLine": {
+          "text": "Sample Tag Line",
+          "hasMarkup": "False"
+        },
+        "disclaimer": {
+          "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
+          "hasMarkup": "False"
+        },
+        "learnMorelink": {
+          "sourcePath": "/content/www/en_US/wifi.html",
+          "size": "160"
+        },
+        "learnMorelinktext": {
+          "sourcePath": "Learn More",
+          "size": "160"
+        }
+      }
+    }
+  ]
+}

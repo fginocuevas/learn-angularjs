@@ -26,3 +26,14 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Possible Errors and their solutions
+
+When trying to import InMemoryWebApiModule in your app.module.ts, the following error appears:
+ app.module.ts(5,51): error TS2307: Cannot find module 'angular2-in-memory-web-api'
+ 
+SOLUTION:
+angular2-in-memory-web-api is not included in your Angular version.
+
+npm install angular-in-memory-web-api --save
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api/in-memory-web-api.module';

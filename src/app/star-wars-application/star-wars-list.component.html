@@ -1,0 +1,12 @@
+<div>
+  <div>
+    <p>Star Wars Character List</p>
+
+    <ul class="characters">
+      <li *ngFor="let character of characters">
+        <span class="badge">{{character.id}}</span> {{character.name}}
+      </li>
+    </ul>
+
+  </div>
+</div>
