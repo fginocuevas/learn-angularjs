@@ -1,8 +1,8 @@
 <h3>{{title}}</h3>
 
 <div>
-  <div ng-if="displayData">
-    Display Data is Present
+  <div *ngIf="displayData">
+    <h4> Display Data is Present from Mocked Web Service (Local File)</h4>
     <!-- <span>{{response}}</span> -->
 
     <!--<div class="details">
@@ -14,6 +14,21 @@
       <p>productCategory: {{displayData[0].productTypeInfo.productCategory}}</p>
 
     </div>-->
+
+      <!--applicationId:
+      pageId:
+      transactionId:
+      deviceType
+      cannedResponse-->
+
+      <p> channelId: {{displayData.channelId}}</p>
+      <p> pageId: {{displayData.pageId}}</p>
+      <p> transactionId: {{displayData.transactionId}}</p>
+      <p> deviceType: {{displayData.deviceType}}</p>
+      <p> cannedResponse: {{displayData.cannedResponse}}</p>
+      <!--<p>productType: {{displayData[0].productTypeInfo.productType}}</p>-->
+      <!--<p>productSubtype: {{displayData[0].productTypeInfo.productSubtype}}</p>-->
+      <!--<p>productCategory: {{displayData[0].productTypeInfo.productCategory}}</p>-->
 
   </div>
 </div>

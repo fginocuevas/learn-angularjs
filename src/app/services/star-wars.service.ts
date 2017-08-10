@@ -32,6 +32,12 @@ export class StarWarsService{
     headers.append('Accept', 'application/json');
     return headers;
   }
+
+  private handleError(error: Response) {
+      console.error(error);
+      return Observable.throw(error.json().error || 'Server Error');
+  }
+
 }
 
 function mapCharacters(response: Response): Character[]{

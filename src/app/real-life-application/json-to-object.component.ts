@@ -21,78 +21,40 @@ export class JsonToObjectComponent implements OnInit{
   title= "Json To Object Test Bench";
   jsonObject= `
     {
-      "amenities": [
-        {
-          "productTypeInfo": {
-            "productId": "wifi",
-            "productType": "AMENITY",
-            "productSubtype": "WIFI",
-            "productCategory": "NON-PHYSICAL-SERVICES"
-          },
-          "productContentInfo": {
-            "primaryName": {
-              "text": "Wi-Fi",
-              "hasMarkup": "False"
+      "originalRequest": {
+        "consumerInfo": {
+          "channelId": "eComm",
+          "applicationId": "Reissue",
+          "pageId": "MYT",
+          "transactionId": "f0ed63fb-4429-4f70-a903-b5ba975",
+          "deviceType": null,
+          "cannedResponse": null
+        },
+        "customerDetails": null,
+        "segmentDetails": [
+          {
+            "sourceDestInfo": {
+              "deptAirportCode": "ORD",
+              "arrAirportCode": "ATL",
+              "deptDateTime": "2017-04-28T20:00:00"
             },
-            "shortPrimaryName": {
-              "text": "Wi-Fi",
-              "hasMarkup": "False"
+            "carrierDetails": {
+              "marketAirlineCode": null,
+              "marketingFlightNo": null,
+              "marketingClassOfService": null,
+              "operatingAirlineCode": "DL",
+              "operatingFlightNo": "972",
+              "operatingClassOfService": "X"
             },
-            "secondaryName": {
-              "text": "Wi-Fi",
-              "hasMarkup": "False"
-            },
-            "shortSecondaryName": {
-              "text": "Wi-Fi",
-              "hasMarkup": "False"
-            },
-            "header": {
-              "text": "Wi-Fi",
-              "hasMarkup": "False"
-            },
-            "shortHeader": {
-              "text": "Wi-Fi",
-              "hasMarkup": "False"
-            },
-            "description": {
-              "text": "In-flight Internet access available for purchase",
-              "hasMarkup": "False"
-            },
-            "shortDescription": {
-              "text": "Internet access available in the flight for travellers to use during the duration of there fly.",
-              "hasMarkup": "False"
-            },
-            "iataDescription": {
-              "text": "In flight description",
-              "hasMarkup": "False"
-            },
-            "tagLine": {
-              "text": "Sample Tag Line",
-              "hasMarkup": "False"
-            },
-            "disclaimer": {
-              "text": "In-Flight services and amenities may vary and are subject to change. Available globally where coverage exists. Requires payment by credit card for activation.",
-              "hasMarkup": "False"
-            },
-            "learnMorelink": {
-              "sourcePath": "/content/www/en_US/wifi.html",
-              "size": "160"
-            },
-            "learnMorelinktext": {
-              "sourcePath": "Learn More",
-              "size": "160"
-            }
+            "flightLegs": []
           }
-        }
-      ]
+        ]
+      }
     }
-
   `;
   displayData: ConsumerInfoDO;
-  keys;
-  response;
   private amenitiesAndMealsByCosPath: string= '../../assets/amenitiesAndMealsByCosResponse.json';
-
+  testo;
 
   constructor(
     private http: Http,
@@ -104,26 +66,22 @@ export class JsonToObjectComponent implements OnInit{
         //this.displayData= JSON.stringify(this.jsonObject); //Working
         //this.displayData= JSON.parse(this.jsonObject).amenities; // Working
 
-        this.http.get(this.amenitiesAndMealsByCosPath)
-             .map(this.extractData, {headers: this.getHeaders()})
-                .subscribe(respo => this.displayData= respo);
+        console.log("Gneo! ngOnInit3");
 
+        this.getAll()
+          .subscribe(displayData => this.displayData = displayData);
 
-        //this.keys= Object.keys(this.displayData)
   }
 
-  private extractData(res: Response):ConsumerInfoDO{
-    	return res.json().originalRequest.consumerInfo.map(toConsumerInfo);
-  }
+  getAll(): Observable<ConsumerInfoDO>{
 
-  /*
-  toOriginalRequest(origReq:any):OriginalRequestDO{
-    let originalRequest= <OriginalRequestDO> ({
-      consumerInfo: toConsumerInfo(origReq)
-    });
-    return originalRequest;
+    // GET Working! with local file
+
+        let info$ = this.http
+          .get(`${this.amenitiesAndMealsByCosPath}`, {headers: this.getHeaders()})
+          .map(mapConsumerInfo);
+          return info$;
   }
-  */
 
   private getHeaders(){
       // I included these headers because otherwise FireFox
@@ -133,6 +91,24 @@ export class JsonToObjectComponent implements OnInit{
       return headers;
   }
 
+  private getParams(){
+    let myParams = new URLSearchParams();
+    //myParams.append('id', bookId);
+    return myParams;
+  }
+
+}
+
+function mapConsumerInfo(response: Response){
+       // The response of the API has a results
+       // property with the actual results
+       console.log("Gneo! mapConsumerInfo");
+       console.log("GNeo: " + response);
+       console.log(response.json());
+       console.log(response.json().originalRequest.consumerInfo);
+
+       return toConsumerInfo(response.json().originalRequest.consumerInfo);
+       //return response.json().originalRequest.map(toConsumerInfo)
 }
 
 function toConsumerInfo(r:any): ConsumerInfoDO{
